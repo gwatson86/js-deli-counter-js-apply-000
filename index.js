@@ -1,6 +1,6 @@
 function currentLine(katzDeliLine) {
   var line = [];
-  for (var i=0, i < katzDeliLine.length, i++) {
+  for (var i=0; i < katzDeliLine.length; i++) {
     line.push([i+1] + "." + katzDeliLine[i])
   }
   if (katzDeliLine.length === 0) {
